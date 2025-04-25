@@ -1,0 +1,63 @@
+.woocommerce input.button[name="apply_coupon"] {
+	color: #FFFFFF;
+}
+
+/* job_remote_application */
+.job-manager-form fieldset.fieldset-job_location {
+	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.job-manager-form fieldset.fieldset-job_remote_application label {
+	display: none;
+}
+
+.job-manager-form fieldset.fieldset-job_remote_application small.description,
+.job-manager-form fieldset.fieldset-terms_of_service small.description {
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.wc-submit-job {
+	margin-right: 10px !important;
+}
+
+.post .header-meta {
+	list-style: none;
+	text-align: left;
+	margin: 0 0 12px 0;
+}
+
+.post .header-meta img {
+	display: block;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+.post .header-meta img.avatar {
+	display:inline-block;
+	margin-right:24px;
+}
+.post .header-meta span.authorname {
+	padding: 10px 0;
+	position: relative;
+	top: 0px;
+}
+
+.post .header-meta a.avatar-link:link,
+.post .header-meta a.avatar-link:hover{
+	opacity: 1;
+	text-decoration: none;
+}
+
+.post .header-meta a:link,
+.post .header-meta a:visited {
+	color: #5a5a5a !important;
+	font-weight: 600 !important;
+}
+.post .header-meta a.header-link:hover {
+	color: #444 !important;
+}
+

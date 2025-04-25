@@ -1,0 +1,107 @@
+/*
+Theme Name:     Revision Path
+Description:    A child theme of Podcaster.
+Author:         Maurice Cherry
+Template:       podcaster
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+/*============ SITE-WIDE ============*/
+
+/* .list-of-episodes article.list .featured-image .hover, #nav .thst-menu li:hover, #menu-1-header-navigation li.current-menu-item { background-color: rgba(0, 136, 0, 0.75); } */
+
+.latest-episode .next-week { background-color: rgba(0, 0, 0, 0.75); }
+
+.latest-episode .next-week h3 { color: white; }
+
+img.border { border: 3px solid #444; }
+
+.aligncenter { display:block; margin: 0 auto; }
+
+.fromtheblog.list { padding: 20px 0 40px 0; } 
+
+.thst-main-posts.sticky { padding-top: 70px; }
+
+h1 { font-size: 3em; }
+
+h2 { font-size: 2.25em; }
+
+h3 { font-size: 1.75em; }
+
+h4 { font-size: 1.125em; }
+
+p { font-size: 1.1em; line-height: 1.4em !important; }
+
+.above, .postfooter { background-color: #333; }
+
+.page .reg .content_page_thumb .transparent { background-color: rgba(0, 0, 0, 0.65); }
+
+p { margin: 0 0 30px 0; }
+
+.post .entry-meta .footer-meta img.authorimage { height: 48px; width: 48px; }
+
+.single .post.format-standard .entry-header .entry-title { margin-top: 0; }
+
+/*
+
+#mc_embed_signup form { padding: 0 !important; }
+
+#mc_embed_signup input.button { margin: 15px auto !important; background-color: #62B562; }
+
+#mc_embed_signup input.button:hover { background-color: #080; }
+
+#mc_embed_signup input.email { margin: 0 auto 20px !important; padding: 20px !important; }
+
+*/
+
+.wp-caption .wp-caption-text { padding: 16px 28px; }
+
+.wp-caption-text { font-size: 14px; text-align: center; line-height: 16px; font-style: italic; }
+
+li#menu-item-104678, li:hover #menu-item-104678, #nav .thst-menu li#menu-item-104678 :hover { background-color: rgba(0,136,0,0.75) !important; }
+
+/*============ JOB BOARD ============*/
+
+input#search_keywords, input#search_location { background: #FFF !important; }
+
+li.indeed_job_listing { background: #EFEFEF !important; }
+
+li.job-type-full-time { background: #FFF !important; }
+
+.latest-episode .main-featured-post .mini-title {
+	padding: 5px;
+	background-color: #FFF;
+}
+
+.woocommerce input.button[name="apply_coupon"] {
+	background-color: green;
+}
+
+.woocommerce table.cart td.actions #coupon_code.input-text,
+.woocommerce-page table.cart td.actions #coupon_code.input-text {
+	width: 200px;
+}
+
+body.single-job_listing .featured-image-large {
+	display: none;
+}
+
+#text-27, #text-27 .textwidget {
+	padding: 0;
+}
+
+/* Homepage Styling */
+body.home .latest-episode .main-featured-post .mini-title {
+	color: #009900;
+	/*font-family: 'zeit-bold-italic' !important;*/
+}
+
+body.home .latest-episode .main-featured-post h2 a {
+	font-family: 'zeit-bold-italic' !important;
+}
+
+.single .single-featured .mejs-audio,
+.single .single-featured .mejs-audio .mejs-controls {
+	background-color: transparent;
+}
